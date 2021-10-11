@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+   
+   <!------ Header and navigation ----->
+   <section class="header">
+      <nav>
+         <a href="index.html">
+            <img src="../images/logo.png">
+         </a>
+         <div class="nav-links" id="navLinks">
+      <i class="bi bi-x" onclick="hideMenu()"></i>
+            <ul>
+               <li><a href="home.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="course.html">COURSE</a></li>
+               <li><a href="blog.html">BLOG</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="bi bi-list" onclick="showMenu()"></i>
+         </nav>
+      <div class="text-box">
+         <h1>Programming World!</h1>
+         <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> JavaScript and you are good to go.</p>
+         <a href="" class="hero-btn">Know More</a>
+      </div>
+   </section>
+   
+   <!---- Course ----->
+   <section class="course">
+      <h1> Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet, consecrater adipiscing elit.</p>
+      
+      <div class="row">
+         <div class="course-col">
+            <h3>Web Development</h3>
+            <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+         </div>
+         <div class="course-col">
+            <h3>Android Development</h3>
+            <p>Android software development is the process by which applications are created for devices running the Android OS.</p>
+         </div>
+         <div class="course-col">
+            <h3>MERN Development</h3>
+            <p>MERN stack is a collection of robust and powerful technologies used to develop scalable master web applications.</p>
+         </div>
+      </div>
+   </section>
+   
+   
+   <!---- Campus ----->
+   <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>Meet our global campuses throughout the programming world!</p>
+      
+      <div class="row">
+         <div class="campus-col">
+         <img src="../images/london1.png">
+         <div class="layer">
+            <h3>LONDON</h3>
+         </div>
+         </div>
+         <div class="campus-col">
+         <img src="../images/newyork.png">
+         <div class="layer">
+            <h3>NEW YORK</h3>
+         </div>
+         </div>
+         <div class="campus-col">
+         <img src="../images/washington.png">
+         <div class="layer">
+            <h3>WASHINGTON</h3>
+         </div>
+         </div>
+      </div>
+   </section>
+   
+   
+   <!----- Facilities ------->
+   <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Learning best ML, AI anf Cyber Security</p>
+      
+      <div class="row">
+         <div class="facilities-col">
+            <img src="../images/machine.jpg">
+            <h3>Machine Learning</h3>
+            <p>Machine learning is a subfield of artificial intelligence, is defined as the capability of a machine to imitate intelligent human behavior</p>
+         </div>
+         <div class="facilities-col">
+            <img src="../images/artificial.png">
+            <h3>Artificial Intelligence</h3>
+            <p>Artificial Intelligence is the theory and development of computers, which imitates the human intelligence and senses</p>
+         </div>
+         <div class="facilities-col">
+            <img src="../images/cyber.jpg">
+            <h3>Cyber Security</h3>
+            <p>Cyber Security is very important because of some security threats and cyber-attacks, is also ethical hacking</p>
+         </div>
+      </div>
+   </section>
+   
+   <!------- testimonials ----->
+   <section class="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>Student Reviews & Feedback for Programming Languages.</p>
+      
+      <div class="row">
+         <div class="testimonials-col">
+           <img src="../images/user1.jpg">
+           <div>
+              <p>Committed developer, interesting and impact full content, good community and well, finishing needed that extra nudge.... Well worth it :)</p>
+              <h3>Christiane Berkley</h3>
+              
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+           </div>
+         </div>
+         <div class="testimonials-col">
+           <img src="../images/user2.jpg">
+           <div>
+              <p>Thank you for installing the confidence!! Do we have playlist for server side programming!!
+              It would be helpful, if you could make it.</p>
+              <h3>David Byer</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+           </div>
+         </div>
+      </div>
+   </section>
+   
+   <!------ Call To Action ------>
+   
+   <section class="cta">
+      <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+   </section>
+  
+  <!------ Footer ------>
+  
+  <section class="footer">
+     <h3>About Us</h3>
+     <p>Be creative and active.<br>Program Code, is special “magic” words that your computer can understand, saved as a “document” or file. That's it.</p>
+     <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-github"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-linkedin"></i>
+     </div>
+     <p class="text">Made with <i class="bi bi-heart-fill"></i> by iKirtesh</p>
+  </section>
+  
+   <!----- JavaScript for Toggle Menu ------->
+  <script src="../JS/main.js"></script>
+</body>
+</html>
